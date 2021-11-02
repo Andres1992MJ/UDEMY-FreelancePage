@@ -1,0 +1,106 @@
+.ntr{  
+  background-image: linear-gradient(to top, black 0%,rgb(134, 133, 133) 100%);
+}
+
+/* html{
+  scroll-snap-type: y mandatory;
+}
+
+header,
+.cont-principal,
+.formulario{
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+} */
+
+.nav-tabs .nav-link {     
+      border: 3px solid transparent;      
+      border-top-style: solid;
+      border-top-width: 3px !important;     
+      border-right-style: solid;
+      border-right-width: 3px !important;     
+      border-bottom-style: solid;
+      border-bottom-width: 3px !important;      
+      border-left-style: solid;
+      border-left-width: 3px !important;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-image-slice: 100%;
+      border-image-source: none;
+      border-image-width: 1; 
+}
+
+#section_init {
+  background-image: url(./img/cuantos-lenguajes-de-programacion-existen.jpg);
+  background-position: static;  
+  background-attachment: fixed;
+  background-size:cover;    
+}
+
+#section_init div {
+    background-color: rgba(181, 192, 201, 0.7);  
+    max-width: 770px;
+    border-radius: 10%;
+}
+
+#section_init svg {
+  max-width: 100px;
+}
+
+header h1{  
+  font-size: 3rem ;  
+}
+
+.nav-tabs{
+  background-color: rgb(123, 123, 124);
+  color: aliceblue;
+}
+
+.active{
+  background-color: rgba(160, 160, 161, 0.781) !important;
+}
+
+@media  (max-width: 490px) {
+  .nav-tabs{    
+    flex-direction: column;
+    position: relative !important;
+  }
+  #section_init .btn{
+    width: 90%;
+  }
+} 
+
+@media  (max-width: 790px) {
+  .cont-principal{
+    background-color: red !important;
+    display: flex;
+    flex-direction: column !important;
+  }
+  .form-mq{
+    flex-direction: column;
+  }
+  .form-mq-btn{
+    width: 70%;     
+  }
+  .form-mq-btn-cont{
+    display: flex;
+    justify-content: center;    
+  }
+} 
+
+.iconos-servicio{  
+  width: 150px !important;
+  height: 150px !important;
+  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%,rgb(134, 133, 133) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
